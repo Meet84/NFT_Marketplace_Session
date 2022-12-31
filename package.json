@@ -1,0 +1,107 @@
+{
+  "name": "polygon-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@pinata/sdk": "^2.1.0",
+    "axios": "^0.21.4",
+    "bufferutil": "^4.0.5",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.1",
+    "form-data": "^4.0.0",
+    "hardhat": "^2.4.1",
+    "ipfs-http-client": "^50.1.2",
+    "next": "11.0.1",
+    "next-images": "^1.8.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "web3modal": "^1.9.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ],
+    "*.{md,css}": "prettier --write"
+  },
+  "devDependencies": {
+    "ajv": "^6.12.3",
+    "autoprefixer": "^10.2.6",
+    "cids": "^1.0.0",
+    "classnames": "^2.3.1",
+    "clsx": "^1.1.1",
+    "copy-to-clipboard": "^3.2.0",
+    "cross-env": "^7.0.2",
+    "cypress": "^4.11.0",
+    "date-fns": "^2.20.0",
+    "electron": "^13.1.8",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eth-permit": "^0.1.9",
+    "ethers": "^5.0.7",
+    "fathom-client": "^3.0.0",
+    "fuse.js": "^6.4.6",
+    "husky": "^6.0.0",
+    "jazzicon": "^1.5.0",
+    "lint-staged": "^10.0.0",
+    "lodash": "^4.17.20",
+    "luxon": "^1.25.0",
+    "multicodec": "^2.0.0",
+    "multihashes": "^3.0.1",
+    "node-vibrant": "^3.1.5",
+    "numeral": "^2.0.6",
+    "polished": "^3.3.2",
+    "postcss": "^8.3.5",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.17.0",
+    "qs": "^6.9.4",
+    "rebass": "^4.0.7",
+    "serve": "^11.3.0",
+    "source-map-explorer": "^2.5.2",
+    "start-server-and-test": "^1.11.0",
+    "styled-components": "^4.2.0",
+    "supports-color": "^9.0.1",
+    "swr": "^0.5.5",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
+    "tailwindcss-border-gradient-radius": "^2.0.0",
+    "typescript": "^3.8.3",
+    "use-count-up": "^2.2.5",
+    "utf-8-validate": "^5.0.7",
+    "wcag-contrast": "^3.0.0"
+  },
+  "description": "![Header](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pfofv47dooojerkmfgr4.png)",
+  "main": "config.example.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
